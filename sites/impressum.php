@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
     <title>Impressum</title>
-
+    <?php include('util/header.php') ?>
   </head>
   <body>
 
-
+<?php include('util/nav.php') ?>
 
       <div class="Impressum">
 
