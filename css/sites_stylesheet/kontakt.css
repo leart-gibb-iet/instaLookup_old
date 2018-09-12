@@ -1,0 +1,42 @@
+.formular td {
+
+    font-family: arial, sans-serif;
+    text-align: center;
+
+}
+
+.formular {
+    margin-bottom: 10%;
+    width: 50%;
+    margin: 0 25%;
+    background-color: #efefef;
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+
+    border: 0
+}
+
+.google-maps-api {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 5%;
+}
+
+.footer-about {
+    position: absolute;
+    bottom: 5%;
+    width: 5%;
+    margin: 0 47.5%;
+}
+
+iframe {
+    width: 800px;
+    height: 500px;
+    border: 0px;
+}

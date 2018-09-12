@@ -3,12 +3,16 @@
   <head>
     <title>Impressum</title>
     <?php include('util/header.php') ?>
+   
+    <link href="../css/sites_stylesheet/impressum.css" rel="stylesheet">
+    
+
   </head>
   <body>
 
 <?php include('util/nav.php') ?>
 
-      <div class="Impressum">
+      <div class="impressum">
 
             <h1> Kontakt </h1>
                 <p>
