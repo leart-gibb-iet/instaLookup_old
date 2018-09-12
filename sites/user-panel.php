@@ -1,6 +1,14 @@
-<?php 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Panel</title>
+    <?php include('util/header.php') ?>
 
-echo "Hello World"
+</head>
+<body>
+
+    <?php include('util/nav.php') ?>
 
 
-?>
+</body>
+</html>

@@ -13,7 +13,7 @@
     <!-- CSS Styling -->
     <link href="css/instagramSearch.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <link href="css/nav-style.css" rel="stylesheet">
    
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,14 +23,24 @@
 
     <!-- js files -->
     <script src="js/InstagramSearch.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/util/nav.js"></script>
     
-
-  
+   
 
 </head>
 
 <body>
+
+<!-- includes nav-bar -->
+<div class="topnav" id="myTopnav">
+         <a href="index.php" >Home</a>
+         <a href="sites/login.php" >Login</a>
+         <a href="sites/kontakt.php"  >Kontakt</a>
+         <a href="sites/user-panel.php"  >User Panel</a>
+         <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+             <i class="fa fa-bars"></i>
+         </a>
+    </div>
 
 
     <form class="form-inline" onsubmit="return false;">
